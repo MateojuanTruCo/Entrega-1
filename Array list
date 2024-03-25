@@ -1,0 +1,50 @@
+public class Main {
+public static void main (String[] args) {
+List<Producto> productos = new ArrayList<>();
+List<Vendedor> vendedores = new ArrayList<>();
+List<Venta> ventas = new ArrayList<>(;
+
+// Agregar vendedores
+vendedores.add (new Vendedor ("C.C. 001", "Carlos Velandia"));
+vendedores. add (new Vendedor ("C.C. 002","Adriana Gomez"));
+vendedores.add (new Vendedor ("C.C. 003","Felipe Alvarez"));
+vendedores. add (new Vendedor ("C.C. 004""Carolina Perez"));
+vendedores. add (new Vendedor ("C.C. 005""Tito Acosta") );
+vendedores. add (new Vendedor ("C.C. 006","Hugo Ariza"));
+vendedores. add (new Vendedor ("C.C. 007","Catalina Herrera") );
+vendedores. add (new Vendedor ("C.C. 008","Federico Leon") );
+vendedores. add (new Vendedor ("C.C. 009","Pablo Silva"));
+vendedores.add (new Vendedor ("C.C. 010", "Nicolas Mora"));
+
+// Agregar productos
+productos. add (new Producto( "ID11", "Cuaderno argollado cuadriculado pequeño",
+12000));
+productos. add (new Producto("ID12", "Esfero negro marca BIC", 2000));
+productos. add (new Producto ("ID13", "Lápiz mirado 2", 3000));
+productos. add (new Producto ("ID14" , "Post It color morado mediano", 5000));
+productos. add (new Producto ("ID15" , "Post It color amarillo pequeño", 12000));
+productos. add (new Producto ("ID16" , "Resma de hojas tamaño carta", 40000));
+productos. add (new Producto ("ID17" , "Regla 30 cm", 6000));
+productos. add (new Producto ("ID18", "Libreta de notas mediana argollada", 15000));
+productos. add (new Producto("ID19", "Sobre manila tamaño oficio", 200)); 
+productos. add (new Producto ("ID20", "Sobre manila tamaño carta", 100));
+
+// Ventas de cada vendedor
+vendedores.get (1). ventas.add (new Venta (productos.get (1), vendedores. get (1),
+2000 * 12000); // Adriana Gomez
+vendedores.get (2). ventas.add (new Venta(productos.get (2), vendedores. get (2) ,
+20000 * 3000; // Felipe Alvarez
+vendedores.get(3) .ventas.add (new Venta(productos.get (3), vendedores.get (3),
+100000 * 5000)); // Carolina Perez
+vendedores get (4). ventas.add (new Venta(productos.get(4), vendedores.get (4),
+50000 * 12000); // Tito Acosta
+vendedores. get (5). ventas.add (new Venta(productos.get (5), vendedores.get (5),
+30000 * 40000); // Hugo Ariza
+vendedores.get (7). ventas.add (new Venta(productos.get(6), vendedores.get (7),
+5000 * 6000); // Federico Leon
+vendedores. get (6). ventas.add (new Venta(productos.get (7), vendedores. get (6),
+10000 * 15000)); // Catalina Herrera
+vendedores.get (8). ventas.add (new Venta(productos get(8), vendedores.get (8),
+20000 * 200)); // Pablo Silva
+vendedores.get (9). ventas.add (new Venta(productos.get(9), vendedores.get (9),
+200000 * 100)); // Nicolas Mora
