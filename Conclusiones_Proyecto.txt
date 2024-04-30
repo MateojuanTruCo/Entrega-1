@@ -17,4 +17,5 @@ Fue valioso entender los diferentes conceptos de la programación, el contexto d
 3. Las dificultades presentadas durante el desarrollo del proyecto.
 
 Las dificultades que tuvimos fue que no todos sabíamos de programación no teníamos bases, un poco en la comunicación ya que hay compañeros que trabajan y casi no podían contestar los mensajes a tiempo y hacer las actividades con días de anticipación.
-También presentamos dificultades para repartirnos los puntos de las actividades, la confusión que se tenía si hacer del código en Studio Code o en eclipse, otra situación fue instalar el programa de eclipse, los errores durante la creación del código. Pero se pudieron solucionar todos los percances presentados durante las 2 actividades del desarrollo del proyecto. 
+También presentamos dificultades para repartirnos los puntos de las actividades, la confusión que se tenía si hacer del código en Studio Code o en eclipse, otra situación fue instalar el programa de eclipse, los errores durante la creación del código. 
+Pero se pudieron solucionar todos los percances presentados durante las 2 actividades del desarrollo del proyecto. 
